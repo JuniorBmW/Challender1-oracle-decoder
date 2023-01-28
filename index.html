@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Challeger #1 Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+     
+       
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="imagenes/LogoAlura.png" alt="Logo de Alura Azul" >
+        </header>
+        <main>
+            <section>
+                <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el Texto Aqui"></textarea>
+                <div>
+                    <h6 class="informacion">🛈 solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section>
+                <textarea class="mensaje" id="txsalida" cols="30" rows="14" type="text"></textarea>
+                <div>
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+
+        <script src="/script.js"></script>
+        <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+       
+        <footer>
+            <div class="container__footer">
+                <div class="box__footer">
+                    <div class="logo">
+                        <img src="/imagenes/MadeinCostaRica.png.png" alt="Logo Alura">
+                    </div>   
+                </div>
+                <div class="box__footer">
+                    <div class="terms">
+                        <h2>Términos</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est vero voluptatem iusto praesentium delectus quidem asperiores reiciendis enim vel. Nostrum dolorem ipsam minus molestias similique quisquam nesciunt a molestiae dicta!</p>
+                    </div>
+                </div>
+                <div class="box__footer">
+                   <h2>Soluciones</h2>
+                   <a href="#">App Desarrollo</a>
+                   <a href="#">App Marqueting</a>
+                   <a href="#">Ios Desarrollo</a>
+                   <a href="#">Androit Desarrollo</a>
+                </div>
+                <div class="box__footer">
+                    <h2>Compañía</h2>
+                    <a href="#">Acerca de</a>
+                    <a href="#">Trabajos</a>
+                    <a href="#">Procesos</a>
+                    <a href="#">Servicios</a>
+                </div>
+                <div class="box__footer">
+                    <h2>Redes Sociales</h2>
+                    <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+                    <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                    <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+                    <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+                </div>            
+                <div class="box__copyright">
+                    <hr>
+                    <p>&copy Copyright Challeger #1 Oracle-Alura
+                    <b> *** Rafael Porras Alán *** Encriptador 2023</b></p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
+

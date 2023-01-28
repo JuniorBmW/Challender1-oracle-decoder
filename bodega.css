@@ -1,0 +1,24 @@
+<canvas width= "1440" height= "150"> </canvas>
+
+<script>
+    var pantalla = document.querySelector("canvas");
+    var pincel = pantalla.getContext("2d");
+
+    
+    pincel.fillStyle = "blue";   //propiedad
+    pincel.fillRect(0,0,1440,30); //función
+    
+    pincel.fillStyle = "white";   //propiedad
+    pincel.fillRect(0,25,1440,30); //función
+
+    pincel.fillStyle = "red";   //propiedad
+    pincel.fillRect(0,50,1440,30); //función
+    
+    pincel.fillStyle = "white";   //propiedad
+    pincel.fillRect(0,75,1440,30); //función
+    
+    pincel.fillStyle = "blue";   //propiedad
+    pincel.fillRect(0,100,1440,30); //función
+
+
+</script>

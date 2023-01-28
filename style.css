@@ -1,0 +1,205 @@
+*{
+    font-family: 'Inter';
+    background: #e8b756;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;  
+}
+/*Logo de Alura */
+.logo{
+    padding-top: 10px;
+    margin-left: 30px;
+    width: 3%;
+  
+}
+main{ 
+    display: flex;
+    margin: 0;
+    margin-bottom: 50px;
+    margin-left: 80px;
+ 
+
+}
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 5px;
+    text-transform: lowercase;
+  
+}
+
+::placeholder { color: #0A3871; }
+    .textarea:focus {
+        outline: none;
+    }
+
+/*Mensaje de Ingrese el Texto aqui y Logo Muñeco*/
+.mensaje{
+    background: white;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 2px;
+    padding-left: 20px;
+    position:relative;
+
+   }
+.mensaje:focus{
+    outline: none;
+}
+.mensaje:hover{
+    outline: none;
+}
+
+/*colocacion de los dos botones*/
+.botones{
+    display: flex;
+    margin-top: 108px;
+}
+
+/*Boton de Encriptar*/
+.btn-encriptar{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    margin-left: 0px;
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    order: 0;
+    color: gray;
+    cursor: pointer;
+    box-shadow: 10px 10px;
+    }
+
+.btn-encriptar:hover{
+    color:#c78c19;
+    text-decoration: underline;
+    font-size: 33px;
+    }
+
+
+/*Boton de Desencriptar*/
+.btn-desencriptar{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    margin-left: 30px;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    order: 1;
+    color: #0A3871;
+    cursor: pointer;
+    box-shadow: 10px 10px;
+    }
+.btn-desencriptar:hover{
+        color:#c78c19;
+        text-decoration: underline;
+        font-size: 33px;
+    }
+/*Boton de Copiar*/
+.copiar{
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    margin-left: 155px;
+    margin-top: 17px;
+    background-color: #27bfd3;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0a0c0f;
+    cursor: pointer;
+    position: absolute;
+    box-shadow: 10px 10px;
+}
+.copiar:hover {
+    color:#c78c19;
+    text-decoration: underline;
+    font-size: 33px;
+}
+
+/*letrero 🛈 solo letras minúsculas y sin acentos*/
+.informacion{
+    width: 205;
+    height: 18px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+footer{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #D8DFE8;
+    background-size: cover;
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1550px;
+    margin: auto;
+    margin-top: 80px;
+}
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.box__footer .logo img{
+    width: 350px;
+    background-color: black;
+}
+.box__footer .terms{
+    max-width: 300px;
+    margin-top: 5px;
+    font-weight: 450;
+    color:#7a7a7a;
+    font-size: 16px;
+}
+.box__footer h2{
+    margin-bottom: 25px;
+    color: #343434;
+    font-weight: 900;
+}
+.box__footer a{
+    margin-bottom: 10px;
+    color: #7a7a7a;
+    font-weight: 700;
+}
+.box__footer a:hover{
+    opacity: 0.3;
+}
+.box__footer a .fab{
+    font-size: 25px;
+}
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+
+}
